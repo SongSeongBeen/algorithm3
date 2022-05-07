@@ -20,7 +20,7 @@ public class Solution2 {
 				FoodMaps.get(len).put(candi.toString(), cnt);
 				MaxCnt[len] = Math.max(MaxCnt[len], cnt);
 			}
-			return;
+			return; 
 		}
 		comb(str, pos+1, candi.append(str[pos]));
 		candi.setLength(candi.length()-1);
