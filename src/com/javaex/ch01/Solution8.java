@@ -14,5 +14,5 @@ public class Solution8 {
 	
 	return (int) (mole / (deno * (n + 1)));
 	    }
-
+ 
 }
