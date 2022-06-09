@@ -8,7 +8,7 @@ public class Solution {
 		for(int i=1; i<=s.length()/2;i++) {
 			int pos = 0;
 			int len = s.length();
-			
+			 
 			for( ;pos + i <=s.length();) {
 				String unit = s.substring(pos, pos + i);
 				pos += i;
