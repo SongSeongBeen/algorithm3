@@ -19,6 +19,7 @@ public class Solution5 {
 				}
 			}
 		}
+		
 		int answer = Integer.parseInt(sb.toString());
 		return answer;
 	}
